@@ -21,7 +21,16 @@ plugins/WorldEdit/schematics/
 plguins/WorldEdit/sessions/
 plugins/WorldGuard/worlds/
 plugins/WorldGuard/cache/
-plugins/Plan/
 plugins/LuckPerms/libs
 plugins/LuckPerms/contexts.json
+plugins/LWC/
+plugins/Plan/
+plugins/ProtocolLib/
+plugins/QuickShop/cache
+plugins/QuickShop/enchi18n.yml
+plugins/QuickShop/example.config.yml
+plugins/QuickShop/itemi18n.yml
+plugins/QuickShop/messages.json
+plugins/QuickShop/potioni18n.yml
+
 !plugins/LuckPerms/*.mv.db
