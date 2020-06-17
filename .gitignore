@@ -26,6 +26,7 @@ plugins/WorldGuard/cache/
 plugins/LuckPerms/libs
 plugins/LuckPerms/contexts.json
 plugins/LWC/
+plugins/Minepacks/backups/
 plugins/Plan/
 plugins/ProtocolLib/
 plugins/QuickShop/cache
