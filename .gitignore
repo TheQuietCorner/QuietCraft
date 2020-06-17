@@ -7,13 +7,21 @@
 *.sqlite
 *.mmdb
 
+plugins/bStats/
+plugins/PluginMetrics/
 plugins/DiscordSRV/.token
 plugins/Essentials/spawn.yml
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 plugins/Essentials/warps/
 plugins/GriefPreventionData/ClaimData/
+plugins/GriefPreventionData/Logs/
 plugins/GriefPreventionData/PlayerData/
 plugins/WorldEdit/schematics/
+plguins/WorldEdit/sessions/
 plugins/WorldGuard/worlds/
+plugins/WorldGuard/cache/
 plugins/Plan/
+plugins/LuckPerms/libs
+plugins/LuckPerms/contexts.json
+!plugins/LuckPerms/*.mv.db
