@@ -73,7 +73,7 @@ shop:
   enchance-shop-protect: false
   find-distance: 45
   alternate-currency-symbol: QC
-  disable-vault-format: false
+  disable-vault-format: true
   currency-symbol-on-right: true
   ignore-unlimited-shop-messages: false
   auto-fetch-shop-messages: true
@@ -143,8 +143,8 @@ matcher:
     suspiciousStew: true
     shulkerBox: true
 mixedeconomy:
-  deposit: eco give {0} {1}
-  withdraw: eco take {0} {1}
+  deposit: pay {0} {1}
+  withdraw: eco give {0} {1}
 integration:
   towny:
     enable: false

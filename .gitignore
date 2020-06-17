@@ -18,6 +18,8 @@ plugins/Essentials/spawn.yml
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
 plugins/Essentials/warps/
+plugins/Essentials/items.*
+plugins/Essentials/kits.yml
 plugins/GriefPreventionData/ClaimData/
 plugins/GriefPreventionData/Logs/
 plugins/GriefPreventionData/PlayerData/
