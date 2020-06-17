@@ -5,6 +5,7 @@
 *.lck
 *.log
 *.sqlite
+*.mmdb
 
 plugins/DiscordSRV/.token
 plugins/Essentials/spawn.yml
@@ -13,11 +14,6 @@ plugins/Essentials/usermap.csv
 plugins/Essentials/warps/
 plugins/GriefPreventionData/ClaimData/
 plugins/GriefPreventionData/PlayerData/
-plugins/Multiverse-Core/scripts/
-plugins/Multiverse-Core/worlds.yml
-plugins/PurpleIRC/bots/
-plugins/RandomTP/portals.yml
-plugins/RotatoR/config.yml
-plugins/SpawnerProtection/Spawners.yml
 plugins/WorldEdit/schematics/
 plugins/WorldGuard/worlds/
+plugins/Plan/
