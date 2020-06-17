@@ -29,6 +29,7 @@ plugins/LuckPerms/contexts.json
 plugins/LWC/
 plugins/MineableSpawners/
 plugins/Minepacks/backups/
+plugins/OpenInv/
 plugins/Plan/
 plugins/ProtocolLib/
 plugins/QuickShop/cache
