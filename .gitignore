@@ -9,6 +9,7 @@
 
 plugins/AntiCheatReloaded/
 plugins/bStats/
+plugins/DeadChest/chestData.yml
 plugins/PluginMetrics/
 plugins/DiscordSRV/.token
 plugins/DiscordSRV/linkedaccounts.json
