@@ -12,6 +12,7 @@ plugins/bStats/
 plugins/PluginMetrics/
 plugins/DiscordSRV/.token
 plugins/DiscordSRV/linkedaccounts.json
+plugins/dynmap/
 plugins/Essentials/spawn.yml
 plugins/Essentials/userdata/
 plugins/Essentials/usermap.csv
