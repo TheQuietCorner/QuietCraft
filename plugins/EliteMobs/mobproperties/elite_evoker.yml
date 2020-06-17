@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: EVOKER
+name: '&fLvl &2$level &fElite &5Evoker'
+deathMessages:
+- $player &cwas enchanted by $entity&c!

@@ -1,0 +1,5 @@
+isEnabled: true
+entityType: ILLUSIONER
+name: '&fLvl &2$level &fElite &8Illusioner'
+deathMessages:
+- $player&c fell for $entity's &cillusions!

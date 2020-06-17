@@ -1,0 +1,6 @@
+isEnabled: true
+entityType: PIG_ZOMBIE
+name: '&fLvl &2$level &fElite &6Zombie Pigman'
+deathMessages:
+- $player &cwas mobbed to death by $entity&c!
+- $entity &cgot $player's &cbacon!
