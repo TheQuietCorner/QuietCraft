@@ -7,3 +7,5 @@ sanitizeAllUserFilenames: true
 updateUsersPowerToolsFormat: true
 updateUsersHomesFormat: true
 banFormatChange: true
+kitsyml: true
+userMapRepaired: true

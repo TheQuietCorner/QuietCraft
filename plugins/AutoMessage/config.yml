@@ -7,7 +7,7 @@
 #     To split a message onto multiple lines use the \n delimiter!
 #     Lines starting with / will be run as a command!
 #     To add single apostrophes into a message use ''.
-#     For a complete tutorial go to http://dev.bukkit.org/server-mods/automessage.
+#     For a complete tutorial go to https://dev.bukkit.org/projects/automessage/pages/configuration-guide
 #     If you are unfamiliar with YAML use the in-game commands: /am help
 
 settings:
@@ -31,5 +31,5 @@ message-lists:
       forum) if they have given their name in the forum thread'
     - '&6SpigotCraft &8»&r If you have 500+ post on forum you can get promoted to
       a Helper by a Moderator'
-    - '&6SpigotCraft &8»&r The aim of this exercise is to find critical bugs in
-      forthcoming Minecraft/Spigot versions'
+    - '&6SpigotCraft &8»&r The aim of this exercise is to find critical bugs in forthcoming
+      Minecraft/Spigot versions'
