@@ -11,13 +11,13 @@ BotToken: ""
 # syntax is Channels: {"in-game channel name": "numerical channel ID from Discord", "another in-game channel name": "another numerical channel ID from Discord"}
 # The first channel pair specified in this config option will be the "main" channel, used for sending player joins/quits/deaths/achievements/etc
 #
-Channels: {"global": "694661910179610654"}
+Channels: {"global": "720022787481403492"}
 
 # Console channel numerical ID (NOT NAME), leave blank to disable the console channel all together
 DiscordConsoleChannelId: "000000000000000000"
 
 # Invitation link shown to players when using /discord and on the message shown to unlinked players when linking is enforced
-DiscordInviteLink: "discord.gg/changethisintheconfig.yml"
+DiscordInviteLink: "https://discord.gg/wEtCRmH"
 
 # Debug options, don't touch unless needed
 #
@@ -61,7 +61,7 @@ DisabledPluginHooks: []
 #
 # DiscordGameStatus: Text to display. Can be a single value e.g. "Minecraft", or multiple values e.g. ["Minecraft", "yourip.changeme.com"]
 # StatusUpdaterRateInMinutes: How frequently to cycle the status
-DiscordGameStatus: "Minecraft"
+DiscordGameStatus: "QuietCraft"
 StatusUpdateRateInMinutes: 2
 
 # Chat channel information
@@ -87,9 +87,9 @@ DiscordChatChannelMinecraftToDiscord: true
 DiscordChatChannelTruncateLength: 256
 DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
-DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["Developer", "Owner", "Admin", "Moderator"]
+DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["✿ Owner", "✿ Administrator", "✿ Moderator", "✿ Partnered Creator", "✿ Event Manager", "✿ Trusted", "✿ Art Contest Winner", "✿ Content Creator", "✿ Nitro Booster", "✿ Members", "✿ Bots"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
-DiscordChatChannelRequireLinkedAccount: false
+DiscordChatChannelRequireLinkedAccount: true
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelColorTranslations: {
@@ -138,7 +138,7 @@ DiscordChatChannelRolesSelection: ["Don't show me!", "Misc role"]
 # DiscordConsoleChannelLevels: levels to send to console channel via appender
 #
 DiscordConsoleChannelLogRefreshRateInSeconds: 5
-DiscordConsoleChannelUsageLog: "DiscordConsole.log"
+DiscordConsoleChannelUsageLog: "Console-%date%.log"
 DiscordConsoleChannelBlacklistActsAsWhitelist: false
 DiscordConsoleChannelBlacklistedCommands: ["?", "op", "deop", "execute"]
 DiscordConsoleChannelDoNotSendPhrasesActsAsWhitelist: false
@@ -201,8 +201,8 @@ DiscordChatChannelRegexReplacement: ""
 # ChannelTopicUpdaterChannelTopicsAtShutdownEnabled: whether or not the channel topics should be changed at server shutdown at all
 # ChannelTopicUpdaterRateInMinutes: amount of minutes between automatically updating the channel topics with fresh information
 #
-ChannelTopicUpdaterChannelTopicsAtShutdownEnabled: true
-ChannelTopicUpdaterRateInMinutes: 5
+ChannelTopicUpdaterChannelTopicsAtShutdownEnabled: false
+ChannelTopicUpdaterRateInMinutes: 10
 
 # Discord canned responses
 # These are triggers (commands in a way) that will trigger a "canned response" to be sent as a reply to them
@@ -212,7 +212,7 @@ ChannelTopicUpdaterRateInMinutes: 5
 # If you do not want any canned responses, set this to just {}
 # PlaceholderAPI placeholders are supported for the values
 #
-DiscordCannedResponses: {"!ip": "play.spigotmc.org", "!site": "https://www.spigotmc.org/"}
+DiscordCannedResponses: {"!ip": "mc.vibrantrida.me:25668", "!map": "http://mc.vibrantrida.me:8123"}
 
 # Minecraft to Discord account linking
 # These are the config options pertaining to how linking a Minecraft account to a Discord account functions
@@ -233,8 +233,8 @@ DiscordCannedResponses: {"!ip": "play.spigotmc.org", "!site": "https://www.spigo
 #
 MinecraftDiscordAccountLinkedConsoleCommands: ["", "", ""]
 MinecraftDiscordAccountUnlinkedConsoleCommands: ["", "", ""]
-MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Linked"
-MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: false
+MinecraftDiscordAccountLinkedRoleNameToAddUserTo: "Minecraft"
+MinecraftDiscordAccountLinkedAllowRelinkBySendingANewCode: true
 
 # Server watchdog
 #

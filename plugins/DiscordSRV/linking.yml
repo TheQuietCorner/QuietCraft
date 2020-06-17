@@ -1,12 +1,12 @@
 Require linked account to play: 
-  Enabled: false
+  Enabled: true
 
   # If you don't know what these mean, don't touch them
   #
   # The priority that the join listener should be on
   # In order of first to last, available values are LOWEST, LOW, NORMAL, HIGH, HIGHEST
   # You might need to change this to a later priority for a ban plugin to kick the player before DiscordSRV denies them
-  Listener priority: LOWEST
+  Listener priority: HIGH
   # The event that the link module should listen and disallow logins on
   # Some whitelist plugins use AsyncPlayerPreLoginEvent (good), some use PlayerLoginEvent (not as good)
   Listener event: AsyncPlayerPreLoginEvent
@@ -14,9 +14,9 @@ Require linked account to play:
   # If you don't know what these mean, don't touch them
 
   # Minecraft IGNs to always allow whether linked or subscriber or not
-  Bypass names: [Scarsz, Notch]
+  Bypass names: []
   # Whether or not players on the VANILLA whitelist will bypass the need to link their accounts/have a sub role
-  Whitelisted players bypass check: true
+  Whitelisted players bypass check: false
 
   # Message to kick players with telling them to link their accounts
   # Use {BOT} as a placeholder for the bot's name
@@ -26,10 +26,10 @@ Require linked account to play:
 
   # Optionally require people to not only be linked but also to have a one of or all specified roles like a Twitch sub role
   Subscriber role:
-    Require subscriber role to join: false
-    Subscriber roles: ["00000000000000000", "00000000000000000", "00000000000000000"]
-    Require all of the listed roles: false # when false, only one of the above roles is required
-    Kick message: "&cYou must be subscribed on Twitch to be able to play."
+    Require subscriber role to join: true
+    Subscriber roles: ["403309735849492500"]
+    Require all of the listed roles: true # when false, only one of the above roles is required
+    Kick message: "&cYou must be a member of the Quiet Corner Discord Server to play."
 
   Messages:
     DiscordSRV still starting: "&cCurrently unavailable to check link status because the server is still connecting to Discord.\n\nTry again in a minute."
