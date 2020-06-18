@@ -43,5 +43,6 @@ plugins/QuickShop/example.config.yml
 plugins/QuickShop/itemi18n.yml
 plugins/QuickShop/messages.json
 plugins/QuickShop/potioni18n.yml
+plugins/SkinsRestorer/
 
 !plugins/LuckPerms/*.mv.db
