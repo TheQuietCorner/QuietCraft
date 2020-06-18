@@ -21,15 +21,8 @@ message-lists:
     expiry: -1
     random: true
     messages:
-    - '&6SpigotCraft &8»&r The server is currently in testing mode. The map will be
-      reset frequently. Please don''t break things.'
-    - '&6SpigotCraft &8»&r All actions are logged - abuse will result in a 1 month
-      ban from SpigotMC.'
-    - '&6SpigotCraft &8»&r This server is open source - submit your own changes here:
-      https://github.com/SpigotMC/SpigotCraft'
-    - '&6SpigotCraft &8»&r Helpers may use /promote to promote users (100+ posts on
-      forum) if they have given their name in the forum thread'
-    - '&6SpigotCraft &8»&r If you have 500+ post on forum you can get promoted to
-      a Helper by a Moderator'
-    - '&6SpigotCraft &8»&r The aim of this exercise is to find critical bugs in forthcoming
-      Minecraft/Spigot versions'
+    - '&6QuietCraft &8»&r All actions are logged - any form of abuse will be met with appropriate actions.'
+    - '&6QuietCraft &8»&r This server is open source - submit your own changes here:
+      https://github.com/TheQuietCorner/QuietCraft'
+    - '&6QuietCraft &8»&r Found a bug? - mail a staff member or submit an issue here:
+      https://github.com/TheQuietCorner/QuietCraft/issues'
