@@ -8,6 +8,7 @@
 *.mmdb
 
 plugins/AntiCheatReloaded/
+plugins/AuthMe/playerdata/
 plugins/bStats/
 plugins/DeadChest/chestData.yml
 plugins/PluginMetrics/
@@ -23,6 +24,7 @@ plugins/Essentials/kits.yml
 plugins/GriefPreventionData/ClaimData/
 plugins/GriefPreventionData/Logs/
 plugins/GriefPreventionData/PlayerData/
+plugins/LoginSecurity/
 plugins/WorldEdit/schematics/
 plguins/WorldEdit/sessions/
 plugins/WorldGuard/worlds/
