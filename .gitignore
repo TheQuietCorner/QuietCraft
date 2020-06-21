@@ -34,6 +34,8 @@ plugins/LuckPerms/contexts.json
 plugins/LWC/
 plugins/MineableSpawners/
 plugins/Minepacks/backups/
+plugins/Multiverse-Core/worlds.yml
+plugins/Multiverse-Core/scripts/
 plugins/OpenInv/
 plugins/Plan/
 plugins/ProtocolLib/
