@@ -1,31 +1,13 @@
-#  ----------------------------------------------------
-#  AutoMessage Configuration File
-#  ----------------------------------------------------
-#  Message Configuration:
-#     Messages are handled in lists to allow for advanced customization!
-#     Feel free to add color codes by using & in your messages!
-#     To split a message onto multiple lines use the \n delimiter!
-#     Lines starting with / will be run as a command!
-#     To add single apostrophes into a message use ''.
-#     For a complete tutorial go to https://dev.bukkit.org/projects/automessage/pages/configuration-guide
-#     If you are unfamiliar with YAML use the in-game commands: /am help
-
-settings:
-  enabled: true
-  min-players: 1
-  log-to-console: false
-message-lists:
-  regular:
-    enabled: true
-    interval: 150
-    expiry: -1
-    random: true
-    messages:
-    - '&6QuietCraft &8»&r All actions are logged - any form of abuse will be met with appropriate actions.'
-    - '&6QuietCraft &8»&r This server is open source - submit your own changes here:
-      https://github.com/TheQuietCorner/QuietCraft'
-    - '&6QuietCraft &8»&r Found a bug? - mail a staff member or submit an issue here:
-      https://github.com/TheQuietCorner/QuietCraft/issues'
-    - '&6QuietCraft &8»&r Support the server - it costs 4 USD/month to keep the server up.
-      You can donate funds for the server here: https://ko-fi.com/vibrantrida'
-      (When donating, please indicate that the funds are meant for the server.)
+# Delay in seconds
+delay: 150
+prefix: '[&6QuietCraft&r]'
+messages:
+- 'All actions are logged - any form of abuse will be met with
+  appropriate actions.'
+- 'This server is open source - submit your own changes here:
+  &bhttps://github.com/TheQuietCorner/QuietCraft'
+- 'Found a bug? - mail a staff member or submit an issue here:
+  &bhttps://github.com/TheQuietCorner/QuietCraft/issues'
+- 'Support the server - it costs 4 USD/month to keep the server
+  up. You can donate funds for the server here: &bhttps://ko-fi.com/vibrantrida&r
+  (When donating, please indicate that the funds are meant for the server.)'
