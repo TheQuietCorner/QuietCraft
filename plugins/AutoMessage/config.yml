@@ -2,12 +2,9 @@
 delay: 150
 prefix: '[&6QuietCraft&r]'
 messages:
-- 'All actions are logged - any form of abuse will be met with
-  appropriate actions.'
-- 'This server is open source - submit your own changes here:
-  &bhttps://github.com/TheQuietCorner/QuietCraft'
-- 'Found a bug? - mail a staff member or submit an issue here:
-  &bhttps://github.com/TheQuietCorner/QuietCraft/issues'
-- 'Support the server - it costs 4 USD/month to keep the server
-  up. You can donate funds for the server here: &bhttps://ko-fi.com/vibrantrida&r
-  (When donating, please indicate that the funds are meant for the server.)'
+- All actions are logged - any form of abuse will be met with appropriate actions.
+- 'This server is open source - submit your own changes here: &bhttps://github.com/TheQuietCorner/QuietCraft'
+- 'Found a bug? - mail a staff member or submit an issue here: &bhttps://github.com/TheQuietCorner/QuietCraft/issues'
+- 'Support the server - it costs 4 USD/month to keep the server up. You can donate
+  funds for the server here: &bhttps://ko-fi.com/vibrantrida&r (When donating, please
+  indicate that the funds are meant for the server.)'

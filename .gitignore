@@ -24,6 +24,7 @@ plugins/Essentials/kits.yml
 plugins/GriefPreventionData/ClaimData/
 plugins/GriefPreventionData/Logs/
 plugins/GriefPreventionData/PlayerData/
+plugins/LogBlock/
 plugins/LoginSecurity/
 plugins/WorldEdit/schematics/
 plguins/WorldEdit/sessions/
