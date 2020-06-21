@@ -89,7 +89,7 @@ DiscordChatChannelTranslateMentions: true
 DiscordChatChannelPrefixRequiredToProcessMessage: ""
 DiscordChatChannelRolesAllowedToUseColorCodesInChat: ["✿ Owner", "✿ Administrator", "✿ Moderator", "✿ Partnered Creator", "✿ Event Manager", "✿ Trusted", "✿ Art Contest Winner", "✿ Content Creator", "✿ Nitro Booster", "✿ Members", "✿ Bots"]
 DiscordChatChannelBroadcastDiscordMessagesToConsole: true
-DiscordChatChannelRequireLinkedAccount: true
+DiscordChatChannelRequireLinkedAccount: false
 DiscordChatChannelBlockBots: false
 DiscordChatChannelBlockedIds: ["000000000000000000", "000000000000000000", "000000000000000000"]
 DiscordChatChannelColorTranslations: {
